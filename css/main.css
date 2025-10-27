@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  padding: 20px;
+  background: #70d37d;
+}
+#root {
+  width: 60%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.btn {
+  position: absolute;
+  top: -10px;
+  right: -150px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #00461d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+form {
+  margin: 15px;
+}
+label {
+  display: block;
+  margin: 10px;
+  font-weight: bold;
+}
+input,
+select {
+  width: 95%;
+  padding: 15px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+h1 {
+  margin-top: 25px;
+  color: #00461d;
+  text-align: center;
+  font-size: 18px;
+}
+.close {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.calcBtn {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #00461d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
