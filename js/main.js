@@ -191,10 +191,12 @@ btn.addEventListener("click", function () {
     result.textContent = `${fname} ${lname}، حقوق خالص شما ${pureSalery} تومان است.`;
   });
 
-  closeBtn.addEventListener("click", function () {
+  closeBtn.addEventListener("click", function (e) {
     form.remove();
     result.remove();
     root.insertAdjacentElement("beforeend", btn)
     btn.disabled = false;
+    e.target.parentElement.remove();
   });
 });
+
